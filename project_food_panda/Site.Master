@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="project_food_panda.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">    
+    <title><%: Page.Title %> Food Panda </title>
+
+    <asp:PlaceHolder runat="server"></asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+
+</head>
+<body style="background-image: url(~/Images/homepage-splash.jpg)">
+    <form runat="server">
+
+
+
+        <div class="navbar navbar-inverse navbar-fixed-top" style="width: 1349px; background-color: orangered; border-bottom-color: orangered; height: 70px; left: 0; right: 0px; top: 0;">
+            <div class="container">
+
+
+                <a id="a_panda" class="navbar-brand" runat="server" href="#">
+                    <img src="/Images/logo.png" /></a>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a id="a_email" runat="server" style="color: white; font-size: 14px;" visible="false">
+                            <asp:Label ID="lbl_email" runat="server" Text="email"></asp:Label></a></li>
+                        <li><a id="a_logout" runat="server" href="#" style="color: white; font-size: 18px;" visible="false" onserverclick="a_logout_onClick">Log Out</a></li>
+                        <li><a runat="server"  href="~/Forms/help.aspx" style="color: white; font-size: 18px">Help </a></li>
+                        <li><a id="a_signup" runat="server" href="~/Forms/SignUp.aspx" style="color: white; font-size: 18px;">Sign up</a></li>
+                        <li><a id="a_login" runat="server" href="~/Forms/Login.aspx" style="color: white; font-size: 18px;">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <footer>
+            <hr />
+            <p>&copy; <%: DateTime.Now.Year %> - Food Panda</p>
+
+        </footer>
+
+    </form>
+
+</body>
+
+</html>

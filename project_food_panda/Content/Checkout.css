@@ -1,0 +1,85 @@
+﻿.heading {
+    color: orangered;
+    margin: 10px;
+}
+.Fbutton {
+    margin: 20px;
+    background-color:#3a5898;
+    color:white;
+    border:solid;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:40px;
+    padding-left:40px;
+    text-align:center;
+    border-color:#3a5898;
+}
+.inputfields {
+    margin:10px ;
+    padding-left:10px;
+    Height:24px;
+    Width:224px;
+}
+.passforgot {
+    margin:50px; 
+    color:seagreen;
+}
+.loginbutton {
+    margin:20px; 
+    text-align:center; 
+    color:white; 
+    background-color:seagreen; 
+    Width:247px; 
+    Height:34px;
+}
+
+.Hiddenbox {
+    color:#00b276;
+    text-decoration:underline;
+    margin:10px;
+
+}
+
+#changingbox {
+    margin:10px 10px 10px 14px;
+}
+
+#RadioButton1 {
+    margin:10px;
+}
+        .auto-style1 {
+            height: 42px;
+            width: 370px;
+        }
+        .auto-style2 {
+            margin: 10px;
+            padding-left: 10px;
+        }
+        .auto-style3 {
+            margin: 10px;
+            padding-left: 10px;
+            Height: 24px;
+            Width: 61px;
+        }
+        .auto-style4 {
+            padding-left: 10px;
+            Height: 24px;
+            Width: 235px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .auto-style6 {
+            width: 100%;
+        }
+        .auto-style8 {
+            width: 370px;
+        }
+         #Submit1 {
+             width: 467px;
+             height: 45px;
+             margin-top: 0px;
+         }
+         .auto-style9 {
+             width: 801px;
+         }

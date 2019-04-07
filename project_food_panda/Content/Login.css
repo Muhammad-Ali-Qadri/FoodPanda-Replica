@@ -1,0 +1,38 @@
+﻿.heading {
+    color: orangered;
+    margin: 20px;
+}
+.Fbutton {
+    margin: 20px;
+    background-color:#3a5898;
+    color:white;
+    border:solid;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:40px;
+    padding-left:40px;
+    text-align:center;
+    border-color:#3a5898;
+}
+.inputfields {
+    margin:10px ;
+    padding-left:10px;
+    Height:24px;
+    Width:224px;
+}
+.passforgot {
+    margin:50px; 
+    color:seagreen;
+}
+.loginbutton {
+    margin:20px; 
+    text-align:center; 
+    color:white; 
+    background-color:seagreen; 
+    Width:247px; 
+    Height:34px;
+}
+
+ .auto-style1 {
+            height: 42px;
+        }
